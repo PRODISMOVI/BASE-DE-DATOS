@@ -1,0 +1,323 @@
+    body {
+            background-color: #fefbff; /* Fondo */
+        }
+
+    body {
+            font-family: Arial, sans-serif; /* Margen */
+            margin: 50px;
+        }
+      
+    h1 {
+            color: #878885; 
+            text-align: right;
+            margin-right: 30px; /* Titulo principal */
+        }
+
+    h2 {
+            color: #0a0a0a; 
+            text-align: left;
+            margin-right: 20px; /* Subtitulo */
+        }
+
+        
+    h3 {
+        color: #0d0f9b; 
+        text-align: left;
+        margin-right: 20px; /* Subtitulo */
+    }
+
+    h4 {
+        color: #0d0f9b; 
+        text-align: left;
+        margin-right: 20px; /* Subtitulo */
+    }
+
+    input[type="submit"] { /*Boton registrar*/
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none; /* Sin borde */
+            border-radius: 5px; /* Bordes redondeados */
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover { /*Boton registrar*/
+            background-color: #45a049;
+        }
+
+        #buscar {
+            width: 500px; /* Tamaño de largo ESPACIO DE BUSCAR*/
+            padding: 10px;
+            border: 2px solid #4CAF50; /* Color del borde */
+            border-radius: 5px; /* Bordes redondeados */
+            font-size: 16px; /* Tamaño de la fuente */
+            color: #333; /* Color del texto */
+            background-color: #f9f9f9; /* Color de fondo */
+        }
+
+        #buscar:focus {
+            border-color: #45a049; /* Color del borde al enfocarse ESPACIO DE BUSCAR*/
+            outline: none; /* Elimina el borde azul predeterminado */
+            box-shadow: 0 0 10px #719ECE; /* Sombra al enfocarse */
+        }
+
+        button {
+            background-color: #4CAF50; /* Color de fondo BOTÓN BUSCAR*/
+            color: white; /* Color del texto */
+            padding: 10px 20px; /* Tamaño del botón */
+            border: none; /* Sin borde */
+            border-radius: 5px; /* Bordes redondeados */
+            font-size: 16px; /* Tamaño de la fuente */
+            cursor: pointer; /* Cambia el cursor al pasar por encima */
+        }
+
+        button:hover {
+            background-color: #45a049; /* Color de fondo al pasar por encima BOTÓN BUSCAR*/
+        }
+
+        #nombre {
+            width: 200px; /* Ajusta el ancho según prefieras */
+            padding: 10px;
+            border: 2px solid #4CAF50; /* Color del borde */
+            border-radius: 5px; /* Bordes redondeados */
+            font-size: 16px; /* Tamaño de la fuente */
+            color: #333; /* Color del texto */
+            background-color: #f9f9f9; /* Color de fondo */
+        }
+
+        #nombre:focus {
+            border-color: #45a049; /* Color del borde al enfocarse */
+            outline: none; /* Elimina el borde azul predeterminado */
+            box-shadow: 0 0 10px #719ECE; /* Sombra al enfocarse */
+        }
+
+        #apellidos {
+            width: 500px; /* Ajusta el ancho según prefieras */
+            padding: 10px;
+            border: 2px solid #4CAF50; /* Color del borde */
+            border-radius: 5px; /* Bordes redondeados */
+            font-size: 16px; /* Tamaño de la fuente */
+            color: #333; /* Color del texto */
+            background-color: #f9f9f9; /* Color de fondo */
+        }
+
+        #apellidos:focus {
+            border-color: #45a049; /* Color del borde al enfocarse */
+            outline: none; /* Elimina el borde azul predeterminado */
+            box-shadow: 0 0 10px #719ECE; /* Sombra al enfocarse */
+        }
+
+        #grupo {
+            width: 100px; /* Ajusta el ancho según prefieras */
+            padding: 10px;
+            border: 2px solid #4CAF50; /* Color del borde */
+            border-radius: 5px; /* Bordes redondeados */
+            font-size: 16px; /* Tamaño de la fuente */
+            color: #333; /* Color del texto */
+            background-color: #f9f9f9; /* Color de fondo */
+        }
+
+        #grupo:focus {
+            border-color: #45a049; /* Color del borde al enfocarse */
+            outline: none; /* Elimina el borde azul predeterminado */
+            box-shadow: 0 0 10px #719ECE; /* Sombra al enfocarse */
+        }
+
+        #edad {
+            width: 100px; /* Ajusta el ancho según prefieras */
+            padding: 10px; /*REVISAR*/
+            border: 2px solid #4CAF50; /* Color del borde */
+            border-radius: 5px; /* Bordes redondeados */
+            font-size: 16px; /* Tamaño de la fuente */
+            color: #333; /* Color del texto */
+            background-color: #f9f9f9; /* Color de fondo */
+            
+        }
+
+        #edad:focus {
+            border-color: #45a049; /* Color del borde al enfocarse */
+            outline: none; /* Elimina el borde azul predeterminado */
+            box-shadow: 0 0 10px #719ECE; /* Sombra al enfocarse */
+        }
+
+        #Matemáticas {
+            width: 100px; /* Ajusta el ancho según prefieras */
+            padding: 5px;
+            border: 2px solid #4CAF50; /* Color del borde */
+            border-radius: 5px; /* Bordes redondeados */
+            font-size: 16px; /* Tamaño de la fuente */
+            color: #333; /* Color del texto */
+            background-color: #f9f9f9; /* Color de fondo */
+        }
+
+        #calificacion:focus {
+            border-color: #45a049; /* Color del borde al enfocarse */
+            outline: none; /* Elimina el borde azul predeterminado */
+            box-shadow: 0 0 10px #719ECE; /* Sombra al enfocarse */
+        }
+
+        #Español {
+            width: 100px; /* Ajusta el ancho según prefieras */
+            padding: 5px;
+            border: 2px solid #4CAF50; /* Color del borde */
+            border-radius: 5px; /* Bordes redondeados */
+            font-size: 16px; /* Tamaño de la fuente */
+            color: #333; /* Color del texto */
+            background-color: #f9f9f9; /* Color de fondo */
+        }
+
+        #calificacion:focus {
+            border-color: #45a049; /* Color del borde al enfocarse */
+            outline: none; /* Elimina el borde azul predeterminado */
+            box-shadow: 0 0 10px #719ECE; /* Sombra al enfocarse */
+        }
+
+        #Historia {
+            width: 100px; /* Ajusta el ancho según prefieras */
+            padding: 5px;
+            border: 2px solid #4CAF50; /* Color del borde */
+            border-radius: 5px; /* Bordes redondeados */
+            font-size: 16px; /* Tamaño de la fuente */
+            color: #333; /* Color del texto */
+            background-color: #f9f9f9; /* Color de fondo */
+        }
+
+        #calificacion:focus {
+            border-color: #45a049; /* Color del borde al enfocarse */
+            outline: none; /* Elimina el borde azul predeterminado */
+            box-shadow: 0 0 10px #719ECE; /* Sombra al enfocarse */
+        }
+
+        #Geografía {
+            width: 100px; /* Ajusta el ancho según prefieras */
+            padding: 5px;
+            border: 2px solid #4CAF50; /* Color del borde */
+            border-radius: 5px; /* Bordes redondeados */
+            font-size: 16px; /* Tamaño de la fuente */
+            color: #333; /* Color del texto */
+            background-color: #f9f9f9; /* Color de fondo */
+        }
+
+        #calificacion:focus {
+            border-color: #45a049; /* Color del borde al enfocarse */
+            outline: none; /* Elimina el borde azul predeterminado */
+            box-shadow: 0 0 10px #719ECE; /* Sombra al enfocarse */
+        }
+
+        #Ciencias {
+            width: 100px; /* Ajusta el ancho según prefieras */
+            padding: 5px;
+            border: 2px solid #4CAF50; /* Color del borde */
+            border-radius: 5px; /* Bordes redondeados */
+            font-size: 16px; /* Tamaño de la fuente */
+            color: #333; /* Color del texto */
+            background-color: #f9f9f9; /* Color de fondo */
+        }
+
+        #calificacion:focus {
+            border-color: #45a049; /* Color del borde al enfocarse */
+            outline: none; /* Elimina el borde azul predeterminado */
+            box-shadow: 0 0 10px #719ECE; /* Sombra al enfocarse */
+        }
+
+        label {
+            font-weight: bold; /* Negrita */
+            color: #19db7a; /* Color del texto */
+            margin-bottom: 5px; /* Espacio inferior */
+           /*display: block; /* Asegura que la etiqueta ocupe toda la línea */
+        }
+
+        h5 {
+            color: #d4e0d5; /* Cambia el color del encabezado */
+            text-align: center; /* Centra el encabezado */
+            margin-top: 20px; /* Añade margen superior */
+            font-size: 24px;
+            background-color: #4CAF50;
+        }
+        
+        #tablaAlumnos {
+            width: 80%; /* Ajusta el ancho de la tabla */
+            margin: 20px auto; /* Centra la tabla */
+            border-collapse: collapse; /* Elimina los espacios entre celdas */
+            }
+
+        #tablaAlumnos th, #tablaAlumnos td {
+            border: 1px solid #ddd; /* Añade borde a las celdas */
+            padding: 8px; /* Añade espacio interno a las celdas */
+            text-align: center; /* Centra el texto en las celdas */
+        }
+
+        #tablaAlumnos th {
+            background-color: #4CAF50; /* Color de fondo de la cabecera */
+            color: white; /* Color del texto de la cabecera */
+        }
+
+        #tablaAlumnos tr:nth-child(even) {
+            background-color: #f2f2f2; /* Color de fondo de las filas pares */
+        }
+
+        #tablaAlumnos tr:hover {
+            background-color: #ddd; /* Color de fondo al pasar el ratón */
+        }
+
+         h6 {
+            color: #d4e0d5; /* Cambia el color del encabezado */
+            text-align: center; /* Centra el encabezado */
+            margin-top: 20px; /* Añade margen superior */
+            font-size: 24px;
+            background-color: #4CAF50;
+        }
+
+        h7 {
+            color: #e21d0f; /* Cambia el color del encabezado */
+            text-align: center; /* Centra el encabezado */
+            margin-top: 20px; /* Añade margen superior */
+            font-size: 24px;
+           
+        }
+
+        #tablaPromediosGrupo {
+            width: 80%; /* Ajusta el ancho de la tabla */
+            margin: 20px auto; /* Centra la tabla */
+            border-collapse: collapse; /* Elimina los espacios entre celdas */
+            }
+
+        #tablaPromediosGrupo th, #tablaPromediosGrupo td {
+            border: 1px solid #ddd; /* Añade borde a las celdas */
+            padding: 8px; /* Añade espacio interno a las celdas */
+            text-align: center; /* Centra el texto en las celdas */
+        }
+
+        #tablaPromediosGrupo th {
+            background-color: #4CAF50; /* Color de fondo de la cabecera */
+            color: white; /* Color del texto de la cabecera */
+        }
+
+        #tablaPromediosGrupo tr:nth-child(even) {
+            background-color: #f2f2f2; /* Color de fondo de las filas pares */
+        }
+
+        #tablaPromediosGrupo tr:hover {
+            background-color: #ddd; /* Color de fondo al pasar el ratón */
+        }
+
+        .imagen-derecha {
+            float: right;
+            margin-left: 20px; /* Espacio a la izquierda de la imagen */
+        }
+    
+        #fechaHora {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            padding: 10px;
+            background-color: #aaa8a8;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+        }
+
+       
